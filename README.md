@@ -5,7 +5,8 @@
   - Install kind, kubernetes in local.
 
  
-This is an example of make working of node port in local.
+This is an example of accessing the URL outside kubernetes cluster using nodePort.
+Please refer kind-cluster.yml, api.yml
 
 
 Local URL:- http://localhost:8080/save/file?data=Hello World
